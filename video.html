@@ -1,0 +1,17 @@
+<html>
+<body> 
+<video id="VideoPlayer" width="700" height="400">
+<source src="Friends theme song - Ill be there for you - official music video HQ.mp4" type="video/mp4"></video><br<br>
+<button onclick="playVid()" type="button">Play Video</button>
+<button onclick="pauseVid()" type="button">Pause Video</button>
+<script>
+var vid = document.getElementById("VideoPlayer"); 
+function playVid() { 
+    vid.play(); 
+} 
+function pauseVid() { 
+    vid.pause(); 
+}
+</script>
+</body>
+</html>
